@@ -4,6 +4,7 @@ body    {
 
 .blog-header {
     background-color: #E5E7E9;
+    margin-bottom: 15px;
 }
 
 .blog-logo {
@@ -45,4 +46,48 @@ a:hover {
     width: 13%;
     text-align: center;
     margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.nav-item:hover {
+    background-color: #3a4750;
+    color: white !important;
+}
+
+.nav-item:hover a {
+    color: white !important;
+}
+
+img {
+    width: 100%;
+}
+
+textarea[name] comment {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.icon-user-comment {
+    font-size: 50px;
+}
+
+.comment-post {
+    width: 100%;
+    border-radius: 15px;
+    border-color: #d94721;
+}
+
+.comment-post:focus {
+    outline: none;
+    border-color: #3a4750;
+}
+
+@media (max-width: 767px) {
+    .nav-item {
+        width: 100%;
+    }
+
+    .comment-row {
+        margin-top: 15px;
+    }
 }
