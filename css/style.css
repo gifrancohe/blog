@@ -82,12 +82,33 @@ textarea[name] comment {
     border-color: #3a4750;
 }
 
+.comment-row {
+    margin: 15px 0px;
+}
+
+.list-group {
+    margin-top: 15px;
+}
+
 @media (max-width: 767px) {
     .nav-item {
         width: 100%;
     }
 
+    .social-media {
+        justify-content: center;
+    }
+
+    .log-col {
+        text-align: center;
+    }
+
     .comment-row {
-        margin-top: 15px;
+        flex-wrap: nowrap !important;
+    }
+
+    .comment-post {
+        width: 90%;
+        margin-left: 20px;
     }
 }
